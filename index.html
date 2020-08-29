@@ -4,23 +4,37 @@
 <head>
   <meta charset="utf-8">
   <title>Lapio website</title>
+  <!--Links this html doc to a .css file-->
   <link rel="stylesheet" href="style.css">
+  <style>
+    h1 {
+      color: blue;
+    }
+
+    .red {
+      color: red;
+    }
+
+    #brown {
+      color: brown;
+    }
+  </style>
 </head>
 
 <body>
   <!--Do the exercises here-->
   <h1>Hello</h1>
-  <h2><b>This is my website</b></h2>
-  <h3><b>You can find my other website </b></b><a href="page2.html"><b>here</b></a></h3>
+  <h2><b id="brown">This is my website</b></h2>
+  <h3><b style="color:#9635E2">You can find my other website </b></b><a href="page2.html"><b>here</b></a></h3>
   <h3><b>The learning goals for this course are in essence to</b></h3>
   <ul>
-    <li>Learn HTML</li>
+    <li class="red">Learn HTML</li>
     <ul>
       <li>Understand what HTML is and what it's used for</li>
       <li>Know what an HTML element is and what it consists of</li>
       <li>Know what an HTML document consists of</li>
     </ul>
-    <li>Learn CSS</li>
+    <li class="red">Learn CSS</li>
     <ul>
       <li>Know what CSS is and what it is used for</li>
       <li>Know how to use the most common features of CSS</li>
@@ -28,7 +42,7 @@
   </ul>
   <p><b>Here</b> I write about things that I find interesting</p>
   <p>Such as learning <i>HTML</i></p>
-  <img src="assets/pexels-grey-kitten(Small).jpg" alt="Closeup of a grey kitten looking up" height="240" width="320"/>
+  <img src="assets/pexels-grey-kitten(Small).jpg" alt="Closeup of a grey kitten looking up" height="240" width="320" />
   <p>A grey kitten looking up against a black background, contemplating life.</p>
   <i><b>To be continued...</b></i>
 </body>
