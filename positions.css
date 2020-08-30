@@ -2,24 +2,33 @@
     width: 200px;
     height: 100px;
     background-color: red;
-    padding-bottom: 10px;
     position: absolute;
-  }
-  
-  .second-box-container {
+    color: blue;
+    border-style: solid;
+    border-width: 16px;
+    border-color: green;
+}
+
+.second-box-container {
     width: 200px;
     height: 100px;
     background-color: yellow;
-    padding-bottom: 10px;
-    left: 250px;
+    left: 300px;
     position: absolute;
-  }
-  
-  .third-box-container {
+    color: blue;
+    border-style: solid;
+    border-width: 16px;
+    border-color: red;
+}
+
+.third-box-container {
     width: 200px;
     height: 100px;
     background-color: green;
-    padding-bottom: 10px;
-    left: 500px;
+    left: 600px;
     position: absolute;
-  }
+    color: blue;
+    border-style: solid;
+    border-width: 16px;
+    border-color: yellow;
+}
